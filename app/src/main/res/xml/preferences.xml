@@ -1,0 +1,37 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/network">
+
+        <EditTextPreference
+            app:defaultValue="10.0.2.2"
+            app:key="@string/pref_host"
+            app:summary="@string/host_summary"
+            app:title="@string/host" />
+
+        <ListPreference
+            app:defaultValue="http"
+            app:entries="@array/host_protocols"
+            app:entryValues="@array/host_protocols"
+            app:key="@string/pref_host_protocol"
+            app:summary="choose http or https"
+            app:title="@string/host_protocol" />
+
+        <EditTextPreference
+            app:defaultValue="8080"
+            app:key="@string/pref_host_port"
+            app:summary="Port number of host"
+            app:title="@string/port_number" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/setting_ui">
+        <SwitchPreferenceCompat
+            app:key="@string/pref_dark_theme"
+            app:title="@string/dark_theme" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/about">
+        <Preference
+            app:key="@string/pref_about"
+            app:title="@string/about_us" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TableRow>
+
+        <TextView
+            android:text="@string/profile_email"
+            android:textAlignment="textEnd"
+            android:textColor="#757575"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_email"
+            android:textColor="#757575"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="@string/nick_name"
+            android:textAlignment="textEnd"
+            android:textColor="#757575"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_nickname"
+            android:textColor="#757575"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="@string/motto"
+            android:textAlignment="textEnd"
+            android:textColor="#757575"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_motto"
+            android:textColor="#757575"
+            android:textSize="18sp" />
+    </TableRow>
+</TableLayout>
