@@ -5,3 +5,7 @@
 + 使用room作为持久层框架
 + 使用dagger作为依赖注入框架
 + 采用了kotlin开发语言
+# 效果截图
+![启动画面](screenshots/Screenshot_1590569197.png "启动画面")
+![应用画面](screenshots/Screenshot_1590569153.png "应用画面")
+![关于我们](screenshots/Screenshot_1590569360.png "关于我们")
